@@ -15,6 +15,10 @@ body {
     grid-template-rows: auto auto auto;
 }
 
+h1 {
+    padding: 10px;
+}
+
 img {
     width: 100%;
     margin-bottom: -4px;
@@ -130,6 +134,18 @@ main{
     width: 80%;
     max-width: 900px;
     background-color:#C4C4C4;
+    border-radius: 8px;
+}
+
+.post-feed-reply {
+    position: relative;
+    border: 2px solid black;
+    width: 50%;
+    max-width: 900px;
+    background-color:#C4C4C4;
+    border-radius: 8px;  
+    float: right;
+    margin-right: 220px;  
 }
 
 .text-entry {
@@ -160,6 +176,23 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.topic p{
+    background-color: #9BA9FF;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+b {
+    font-weight: normal;    
+    color: purple;
+}
+
+.third-post {
+    width: 50%;
 }
 
 /* Leaderboard*/
@@ -275,21 +308,60 @@ form {
 }
 
 /*About Us*/
-
+/*About Us Photos */
 .Aboutus-container {
-    background-color: #9BA9FF;
+    /* background-color: #9BA9FF; */
+    float: left;
+    padding: 10px;
+    width: 45%;    
 }
 
+.Betty-photo {
+    width: 30%;
+    padding-left: 50%;
+}
+
+.Cherry-photo {
+    width: 30%;
+    padding-left: 50%;
+}
+
+.Elsabeth-photo {
+    width: 30%;
+    padding-left: 50%;
+}
+
+/*About us bio */
+
 .Betty-bio {
-    background-color: #C4C4C4;
+    background-color: #E2C6FF;
+    padding: 10px;
+    margin-top: 7%;
+    margin-bottom: 5%;
 }
 
 .Cherry-bio {
-    background-color: #C4C4C4;
+    background-color: #E2C6FF;
+    padding: 10px;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 
 .Elsabeth-bio {
-    background-color: #C4C4C4;
+    background-color: #E2C6FF;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bio-container {
+    float: right;
+    padding-right: 5%;
+    width: 45%;
+}
+
+p {
+    font-size: 20px;
 }
 
 
