@@ -12,8 +12,15 @@ html, body {
 
 body {
     display: grid;
+
     grid-template-rows: 30px auto auto;
    
+
+}
+
+h1 {
+    padding: 10px;
+
 }
 
 img {
@@ -26,6 +33,7 @@ ul.top-nav {
     list-style-type: none;
 }
 
+/*Search bar*/
 .nav-bar input[type=text] {
     padding: 6px;
     margin-top: 8px;
@@ -48,6 +56,7 @@ ul.top-nav {
     background: #C4C4C4;
 }
 
+/*Nav Bar*/
 ul.nav-bar {
     overflow: hidden;
     display: flex;
@@ -91,6 +100,7 @@ main{
     background-color: #C4BAFF;
 } 
 
+/*News Feed */
 .buttons {
     display: flex;
     flex-direction: row;
@@ -128,6 +138,18 @@ main{
     width: 80%;
     max-width: 900px;
     background-color:#C4C4C4;
+    border-radius: 8px;
+}
+
+.post-feed-reply {
+    position: relative;
+    border: 2px solid black;
+    width: 50%;
+    max-width: 900px;
+    background-color:#C4C4C4;
+    border-radius: 8px;  
+    float: right;
+    margin-right: 220px;  
 }
 
 .text-entry {
@@ -160,6 +182,24 @@ main{
     justify-content: space-around;
 }
 
+.topic p{
+    background-color: #9BA9FF;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+b {
+    font-weight: normal;    
+    color: purple;
+}
+
+.third-post {
+    width: 50%;
+}
+
+/* Leaderboard*/
 table {
     border-collapse: collapse;
     width: 80%;
@@ -185,9 +225,14 @@ tr:nth-child(n+5):nth-child(-n+11) {
     background-color: #C4C4C4;   
 }
 
+/*Footer*/
 footer {
     background-color: #E2C6FF;
     text-align: center;
+  color: purple;
+    padding-top: 15px;
+    opacity: 70%;
+
 }
 .stories{
     display: grid;
@@ -253,3 +298,144 @@ footer {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+    
+
+
+.social-container i:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+/*Login page*/
+.login-container input[type=text], input[type=password]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.login-container button{
+    background-color: #9BA9FF;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+form {
+    border: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    padding: 25px;
+    background-color:#E5E5E5;
+    width: 80%;
+    max-width: 700px;
+}
+
+/*Sign Up page*/
+
+.signup-container input[type=text], input[type=password]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.signup-container button{
+    background-color: #9BA9FF;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+form {
+    border: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container {
+    padding: 25px;
+    background-color:#E5E5E5;
+    width: 80%;
+    max-width: 700px;
+}
+
+/*About Us*/
+/*About Us Photos */
+.Aboutus-container {
+    /* background-color: #9BA9FF; */
+    float: left;
+    padding: 10px;
+    width: 45%;    
+}
+
+.Betty-photo {
+    width: 30%;
+    padding-left: 30%;
+}
+
+.Cherry-photo {
+    width: 30%;
+    padding-left: 30%;
+}
+
+.Elsabeth-photo {
+    width: 30%;
+    padding-left: 30%;
+}
+
+/*About us bio */
+
+.Betty-bio {
+    background-color: #E2C6FF;
+    padding: 10px;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.Cherry-bio {
+    background-color: #E2C6FF;
+    padding: 10px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.Elsabeth-bio {
+    background-color: #E2C6FF;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bio-container {
+    float: right;
+    padding-right: 5%;
+    width: 45%;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+
