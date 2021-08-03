@@ -10,6 +10,14 @@ html, body {
     font-family: helvetica, arial, sans-serif;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 120px;
+}
+
 body {
     display: grid;
     grid-template-rows: auto auto auto;
