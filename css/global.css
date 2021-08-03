@@ -198,9 +198,27 @@ footer {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    padding-left: -90px;
+   
+    
+
+   }
+#Carolanne{
+    
+
+    
+    
+
+    
+}
+
+
+
+
 
 
 }
+
 
 .dropdown {
     float: left;
