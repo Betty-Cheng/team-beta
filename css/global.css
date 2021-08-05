@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,8 @@ html, body {
     width: 100%;
     height: 100%;
     background-color: #C4BAFF;
-    font-family: helvetica, arial, sans-serif;
+    /* font-family: helvetica, arial, sans-serif; */
+    font-family: 'Indie Flower', cursive;
 }
 
 .uppercase {
@@ -202,6 +205,10 @@ b {
     width: 70px;
 }
 
+.first-post {
+    width: 40%;
+}
+
 /* Leaderboard*/
 table {
     border-collapse: collapse;
@@ -365,6 +372,13 @@ form {
     background-color:#E5E5E5;
     width: 80%;
     max-width: 700px;
+    opacity: 90%;
+    border-radius: 5%;
+}
+
+#login-background {
+    background-image: url('../images/kids.jpg');
+    background-size: cover;
 }
 
 /*Sign Up page*/
@@ -402,11 +416,18 @@ form {
     background-color:#E5E5E5;
     width: 80%;
     max-width: 700px;
+    opacity: 90%;
+    border-radius: 5%;
 }
 
-.signup-background {
-    border: 2px solid black;
-    background-image: url('images/Seeking-Human-Kindness.jpg');
+#signup-background {
+    background-image: url("../images/Homeless-Sitting.jpg");
+    background-size: cover;
+}
+
+.page-heading {
+    border: 1px solid purple;
+    background-color: #E2C6FF;
 }
 
 /*About Us*/
@@ -442,6 +463,7 @@ form {
     padding: 10px;
     margin-top: 10%;
     margin-bottom: 5%;
+    border: 1px solid purple;
 }
 
 .Cherry-bio {
@@ -449,6 +471,7 @@ form {
     padding: 10px;
     margin-top: 15%;
     margin-bottom: 20%;
+    border: 1px solid purple;
 }
 
 .Elsabeth-bio {
@@ -456,6 +479,7 @@ form {
     padding: 10px;
     margin-top: 5%;
     margin-bottom: 5%;
+    border: 1px solid purple;
 }
 
 .bio-container {
