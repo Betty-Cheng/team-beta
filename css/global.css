@@ -277,12 +277,72 @@ footer {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-}
 
+}
+.storiestext-amber-earl{
+    border: 2px solid purple ;
+    height: 250px;
+    background-color: #E2C6FF;
+    padding: 10px;
+}
+.storiestext-carol-ann{
+     border:2px solid purple;
+     height: 310px;
+     background-color:#E2C6FF;
+     padding: 10px;
+}
+.storiestext-Rule{
+    border: 2px solid purple;
+    background-color: #E2C6FF;
+    padding: 10px;
+}
+.storiestext-Terra{
+    border: 2px solid purple;
+    height: 335px;
+    background-color: #E2C6FF;
+    padding: 10px;
+}  
+.stories-heading2{
+    border: 2px solid purple;
+    height: 50px;
+    background-color:#E2C6FF;
+    
+    
+}
+.storiestext2{
+    border: 2px solid purple;
+    height: 50px;
+    background-color:#E2C6FF;
+    margin-right: 900px;
+    margin: auto;
+    padding-right: 90px;
+    padding-left: 90px;
+}
 /*Dropdown nav bar for Resources*/
 .dropdown {
     float: left;
     overflow: hidden;
+}
+.storiestext-how-to-help{
+    border: 2px solid purple;
+    height: 50px;
+    background-color:#E2C6FF;
+    margin-right: 900px;
+    margin: auto;
+    padding-right: 70px;
+    padding-left: 70px;
+    
+   
+
+}
+.storiestext3{
+    border: 2px solid purple;
+    height: 50px;
+    background-color:#E2C6FF;
+    margin-right: 900px;
+    margin:auto;
+    padding-right: 70px;
+    padding-left: 70px;
 }
 
 .dropdown .dropbtn {
@@ -493,6 +553,10 @@ p {
     font-size: 20px;
 }
 
-
+.stories-heading{
+    border: 2px solid purple;
+    background-color: #E2C6FF;
+    
+}
 
 
