@@ -9,7 +9,7 @@
     <body>
 
       <center><div class = "logo">
-        <img src = "images/Website-logo.png">
+        <a href="index.html"><img src = "images/Website-logo.png"></a>
      </div></center>
      <br>
      <br>
@@ -27,6 +27,7 @@
 
         <nav>
           <ul class="nav-bar">
+            <li  class="nav"><a href="index.html">Home</a></li>
             <div class="dropdown">
               <button class="dropbtn"><a href="#Resources.html">Resources</a></button>
               <div class="dropdown-content">
@@ -34,6 +35,7 @@
                   <a href="#">How to Help</a>
                   <a href="#">Get Help</a>
               </div> 
+            </div>
               <li  class="nav"><a href="#NewsFeed.html">News Feed</a></li>
               <li  class="nav"><a href="#Leaderboard.html">Leaderboard</a></li>
               <li  class="nav"><a href="#Aboutus.html">About Us</a></li>
@@ -46,40 +48,43 @@
          </nav>
 
       <main>
+        <div class = "signup-background">
         <br>
         <center><h2>Sign Up</h2></center>
         <br>
         <center><h3>Create Your Account</h3></center>
         <br>
-        <form>
-          <div class = "signup-container">
+          <form>
+            <div class = "signup-container">
 
-            <center>
-              <i class="fas fa-user-circle" style = "font-size: 100px; color: purple"></i>
-            </center>
+              <center>
+                <i class="fas fa-user-circle" style = "font-size: 100px; color: purple"></i>
+              </center>
 
-            <label>Email:</label>
-            <input type = "text" placeholder = "Enter Email" name = "email" required>
+              <label>Email:</label>
+              <input type = "text" placeholder = "Enter Email" name = "email" required>
 
-            <label>First Name</label>
-            <div class = "first-name"><input type = "text" placeholder = "Enter First Name" name = "FirstName" required>
+              <label>First Name</label>
+              <div class = "first-name"><input type = "text" placeholder = "Enter First Name" name = "FirstName" required>
+              </div>
+
+              <label>Last Name</label>
+              <div class = "last-name"><input type = "text" placeholder = "Enter Last Name" name = "LastName" required>
+              </div>
+
+              <label> Username: </label>
+              <input type = "text" placeholder = "Enter Username" name = "username" required>
+
+              <label>Password: </label>
+              <input type = "password" placeholder = "Enter Password" name = "password" required>
+
+              <button type = "submit">Sign Up</button>
             </div>
-
-            <label>Last Name</label>
-            <div class = "last-name"><input type = "text" placeholder = "Enter Last Name" name = "LastName" required>
-            </div>
-
-            <label> Username: </label>
-            <input type = "text" placeholder = "Enter Username" name = "username" required>
-
-            <label>Password: </label>
-            <input type = "password" placeholder = "Enter Password" name = "password" required>
-
-            <button type = "submit">Sign Up</button>
-          </div>
-        </form>
+          </form>
+          <br>
+        </div>
       </main>
-      <br>
+      
       <footer>
         Contact Us<br><br>
         <div class = "social-container">
