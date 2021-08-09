@@ -280,26 +280,26 @@ footer {
 }
 .storiestext-amber-earl{
     border: 2px solid purple ;
-    height: 250px;
+    height: 300px;
     background-color: #E2C6FF;
-    padding: 10px;
+    padding: 30px;
 }
 .storiestext-carol-ann{
      border:2px solid purple;
-     height: 310px;
+     height: 400px;
      background-color:#E2C6FF;
-     padding: 10px;
+     padding: 30px;
 }
 .storiestext-Rule{
     border: 2px solid purple;
     background-color: #E2C6FF;
-    padding: 10px;
+    padding: 30px;
 }
 .storiestext-Terra{
     border: 2px solid purple;
-    height: 335px;
+    height: 400px;
     background-color: #E2C6FF;
-    padding: 10px;
+    padding: 30px;
 }  
 .stories-heading2{
     border: 2px solid purple;
@@ -307,6 +307,9 @@ footer {
     background-color:#E2C6FF;
     
     
+}
+.stories4{
+    grid-template-columns: ;
 }
 .storiestext2{
     border: 2px solid purple;
