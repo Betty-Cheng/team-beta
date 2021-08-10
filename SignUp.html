@@ -8,21 +8,42 @@
 
     <body>
 
-        <h1>The Poor Nomad</h1>
+      <center><div class = "logo">
+        <a href="index.html"><img src = "images/Website-logo.png"></a>
+     </div></center>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <center><h1 class = "uppercase">A Poor Nomad</h1></center>
 
         <nav>
           <ul class='top-nav'>
-              <li  class="nav"><a href="#Login">Login <i class="fas fa-sign-in-alt"></i></a></li>
-              <li  class="nav"><a href="#SignUp">Sign Up <i class="fas fa-user-circle"></i></a></li>
+              <li  class="nav"><a href="#Login.html">Login <i class="fas fa-sign-in-alt"></i></a></li>
+              <li  class="nav"><a href="#SignUp.html">Sign Up <i class="fas fa-user-circle"></i></a></li>
           </ul>
      </nav> 
 
         <nav>
           <ul class="nav-bar">
-              <li  class="nav"><a href="#Resources">Resources</a></li>
-              <li  class="nav"><a href="#NewsFeed">News Feed</a></li>
-              <li  class="nav"><a href="#Leaderboard">Leaderboard</a></li>
-              <li  class="nav"><a href="#Aboutus">About Us</a></li>
+            <li  class="nav"><a href="index.html">Home</a></li>
+            <div class="dropdown">
+              <button class="dropbtn"><a href="#Resources.html">Resources</a></button>
+              <div class="dropdown-content">
+                <a href="#">Stories</a>
+                <a href="#">Amber and Earl</a>
+                <a href="#">Carol Anne</a>
+                <a href="#">Rule</a>
+                <a href="#">Terra</a>
+                <a href="#">How to Help</a>
+                <a href="#">Amendent 29</a>
+                <a href="#">Get Help</a>
+              </div> 
+            </div>
+              <li  class="nav"><a href="#NewsFeed.html">News Feed</a></li>
+              <li  class="nav"><a href="#Leaderboard.html">Leaderboard</a></li>
+              <li  class="nav"><a href="#Aboutus.html">About Us</a></li>
 
               <div class = "search-container">
                 <input type="text" placeholder="Search..." name = "search">
@@ -30,13 +51,63 @@
             </div>
           </ul>
          </nav>
-
+         
       <main>
-        <center><h2>Sign Up</h2></center>
-      </main>
+        <div id = "signup-background">
+        
+        <div class = "page-heading">
+          <br>
+          <center><h2>Sign Up</h2></center>
+          <br>
+          <center><h3>Create Your Account</h3></center>
+          <br>
+        </div>
+          <br>
+          <form>
+            <div class = "signup-container">
 
+              <center>
+                <i class="fas fa-user-circle" style = "font-size: 100px; color: purple"></i>
+              </center>
+
+              <label>Email:</label>
+              <input type = "text" placeholder = "Enter Email" name = "email" required>
+
+              <label>First Name</label>
+              <div class = "first-name"><input type = "text" placeholder = "Enter First Name" name = "FirstName" required>
+              </div>
+
+              <label>Last Name</label>
+              <div class = "last-name"><input type = "text" placeholder = "Enter Last Name" name = "LastName" required>
+              </div>
+
+              <label> Username: </label>
+              <input type = "text" placeholder = "Enter Username" name = "username" required>
+
+              <label>Password: </label>
+              <input type = "password" placeholder = "Enter Password" name = "password" required>
+
+              <button type = "submit">Sign Up</button>
+            </div>
+         </form>
+          <br>
+        </div>
+      </main>
+      
       <footer>
-        © 2021 The Poor Nomad
+        Contact Us<br><br>
+        <div class = "social-container">
+          <i class="fas fa-envelope" style = "font-size: 30px;  color: purple"></i>
+          <i class="fab fa-instagram" style = "font-size: 30px; color: purple"></i>
+          <i class="fab fa-twitter" style = "font-size: 30px; color: purple"></i>
+          <i class="fab fa-facebook-square" style = "font-size: 30px;  color: purple"></i>
+        </div>
+        <br>
+        © 2021 A Poor Nomad
+        <br>
+        <center><div class = "footer-logo">
+          <img src = "images/Website-logo.png">
+        </div></center>
       </footer>
 
     </body>
