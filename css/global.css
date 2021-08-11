@@ -231,6 +231,7 @@ td, tr {
     border: 2px solid purple;
     text-align: center;
     padding: 8px;
+    font-size: 20px;
 }
 
 th {
