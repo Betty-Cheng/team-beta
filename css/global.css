@@ -273,8 +273,6 @@ footer {
     border: 1px solid black;
 }
 
-   
-
 .social-container i:hover {
     opacity: 50%;
     cursor: pointer;
@@ -294,7 +292,6 @@ footer {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-
 }
 .storiestext-amber-earl{
     border: 2px solid purple ;
@@ -324,15 +321,15 @@ footer {
     height: 50px;
     background-color:#E2C6FF; 
 }
+
 .howtohelpheading{
     border:2px solid purple;
     height: 70px;
     background-color:#E2C6FF ;
 
 }
+.storiestext2{
 
-.
-.storiestext3{
     border: 2px solid purple;
     height: 50px;
     background-color:#E2C6FF;
@@ -587,6 +584,7 @@ p {
     border: 2px solid purple;
     background-color: #E2C6FF;
     
+
 }
 .parfor1{
     border: 2px solid purple;
@@ -597,7 +595,6 @@ p {
     background-color:#E2C6FF;
 }
 .parfor2{
-
     border: 2px solid purple;
     height: 200px;
     padding-left: 60px;
@@ -620,17 +617,10 @@ p {
     margin-right: 150px;
     margin-left: 225px;
     background-color:#E2C6FF;
- 
-    
+}
+.Each-year{
+    margin-bottom: 5%;
     
    
-    
-    
 }
-
-
-    
-
-
-
 
