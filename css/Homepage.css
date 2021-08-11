@@ -1,121 +1,21 @@
-/* CSS files add styling rules to your content */
-
-body {
-    font-family: helvetica, arial, sans-serif;
-    margin: 2em;
-    background-color: #bf94e4;
-  }
-  
-  h1 {
-    font-style: italic;
-    color: #030303;
-  }
+ 
   
   
-  ul.nav-bar {
-    /* Styling for the <ul class="nav-bar"> element */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:C4BAFF;
-    border-style: solid;
-  }
-  
-   
-  
-  /* TODO (optional): Change the font size*/
-  
-  li.nav {
-    /* Styling for the <li class="nav"> element */
-    float: right;
-    font-size: 15px;
-  }
-  
-  /* TODO (optional): Change the font color, decoration, and/or case */
-  
-  li.nav a {
-    /* Styling for the <a> elements in <li class="nav"> */
-    display: block;
-    color: #ba55d3;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  
-  /* CSS files add styling rules to your content */
-
-body {
-    font-family: helvetica, arial, sans-serif;
-    margin: 2em;
-    background-color: #bf94e4;
-  }
-  
-  h1 {
-    font-style: italic;
-    color: #030303;
-  }
-  
-  
-  ul.nav-bar {
-    /* Styling for the <ul class="nav-bar"> element */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:C4BAFF;
-    border-style: solid;
-  }
-  
-   
-  
-  /* TODO (optional): Change the font size*/
-  
-  li.nav {
-    /* Styling for the <li class="nav"> element */
-    float: right;
-    font-size: 15px;
-  }
-  
-  /* TODO (optional): Change the font color, decoration, and/or case */
-  
-  li.nav a {
-    /* Styling for the <a> elements in <li class="nav"> */
-    display: block;
-    color: #ba55d3;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  
-  /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
-  
-  
-  li.nav a:hover {
-    /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-    background-color: #E6E6FA;
-    color: #d9b58f;
-  }
-  
-  p{
-    margin-left:200px;
-  }
+ 
   #bottemP {
       margin-left:20px;
     margin-top:280px !important;
 
   }
   .homelessness2{
-    padding-left: 50%;
-      width: 50%;
+    
+    
 
     }
-
-
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 
   /************************************************/
