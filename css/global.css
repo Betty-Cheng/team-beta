@@ -631,28 +631,26 @@ p {
 
 .parfor1{
     border: 2px solid purple;
-    height: 200px;
-    padding-left: 60px;
-    margin-right: 150px;
-    margin-left: 225px;
+    width: 800px;
+    padding: 10px;
     background-color:#E2C6FF;
+    margin-bottom: 50px;
 }
 .parfor2{
     border: 2px solid purple;
-    height: 200px;
-    padding-left: 60px;
-    margin-right: 150px;
-    margin-left: 225px;
+    width: 800px;
+    padding: 10px;
     background-color:#E2C6FF;
+    margin-bottom: 50px;
 }
 .parfor3{
     border: 2px solid purple;
-    height: 200px;
-    padding-left: 60px;
-    margin-right: 150px;
-    margin-left: 225px;
+    width: 800px;
+    padding: 10px;
     background-color:#E2C6FF;
+    margin-bottom: 50px;
 }
+
 .amend1{
     border: 2px solid purple;
     height: 70px;
