@@ -671,14 +671,15 @@ p {
     margin-right: 450px;
     margin-left: 450px;
     background-color:#E2C6FF;
+   
 }
 .amend-1{
     border: 2px solid purple;
     height: 400px;
-    margin-right:250px;
-    margin-left: 250px;
+ 
     background-color: #E2C6FF;
     padding: 30px;
+    margin: 50px 250px 5px 250px;
 }
 
 .amendment29-heading-1{
@@ -697,7 +698,7 @@ p {
     background-color: #E2C6FF;
     padding: 30px;
 }
-.amendment29-heading-2{
+.amendment29-heading-1{
     border: 2px solid purple;
     height: 70px;
     padding-left: 60px;
@@ -713,7 +714,7 @@ p {
     background-color: #E2C6FF;
     padding: 30px;
 }
-.amendment29-heading-3{
+.amendment29-heading-1{
     border: 2px solid purple;
     height: 70px;
     padding-left: 60px;
@@ -804,7 +805,21 @@ p {
 }
 .hero2{
     background-image: url(../images/Homeless-Sitting.jpg);
-    background-size: contain;
+    background-size: cover;
+}
+.solution{
+    border: 2px solid purple;
+    height: 70px;
+    padding-left: 60px;
+    margin-right: 450px;
+    margin-left: 450px;
+    background-color:#E2C6FF
+
+
+}
+.spacing{
+    margin: 50px 0 ;
+    text-align: center;
 }
 
 .div-space {
