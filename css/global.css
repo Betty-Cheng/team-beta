@@ -625,22 +625,12 @@ p {
 
 .parfor1{
     border: 2px solid purple;
-    width: 800px;
-    padding: 10px;
-    background-color:#E2C6FF;
-    margin-bottom: 50px;
-}
-.parfor2{
-    border: 2px solid purple;
-    width: 800px;
-    padding: 10px;
-    background-color:#E2C6FF;
-    margin-bottom: 50px;
-}
-.parfor3{
-    border: 2px solid purple;
-    width: 800px;
-    padding: 10px;
+
+    height: 100px;
+    padding-left: 60px;
+    margin-right: 150px;
+    margin-left: 225px;
+
     background-color:#E2C6FF;
     margin-bottom: 50px;
 }
@@ -654,19 +644,16 @@ p {
     background-color:#E2C6FF;
 }
 
-.amendment-29{
-    border: 2px solid purple;
-    height: 70px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
-    background-color:#E2C6FF;
-   
+
+.Each-year{
+    margin-bottom: 5%; 
 }
+
+
+
 .amend-1{
     border: 2px solid purple;
     height: 400px;
- 
     background-color: #E2C6FF;
     padding: 30px;
     margin: 50px 250px 5px 250px;
@@ -674,7 +661,7 @@ p {
 
 .amendment29-heading-1{
     border: 2px solid purple;
-    height: px;
+    height: 70px;
     padding-left: 60px;
     margin-right: 450px;
     margin-left: 450px;
@@ -688,14 +675,7 @@ p {
     background-color: #E2C6FF;
     padding: 30px;
 }
-.amendment29-heading-1{
-    border: 2px solid purple;
-    height: 70px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
-    background-color:#E2C6FF;
-}
+
 .amend-3{
     border: 2px solid purple;
     height: 400px;
@@ -704,14 +684,8 @@ p {
     background-color: #E2C6FF;
     padding: 30px;
 }
-.amendment29-heading-1{
-    border: 2px solid purple;
-    height: 70px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
-    background-color:#E2C6FF;
-}
+
+
 .amend-4{
     border: 2px solid purple;
     height: 400px;
@@ -721,14 +695,8 @@ p {
     padding: 30px;
 
 }
-.amendment29-heading-4{
-    border: 2px solid purple;
-    height: 70px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
-    background-color:#E2C6FF;
-}
+
+
 
 .amend-5{
     border: 2px solid purple;
@@ -739,14 +707,8 @@ p {
     padding: 30px;
 }
 
-.amendment29-heading-5{
-    border: 2px solid purple;
-    height: 70px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
-    background-color:#E2C6FF;
-}
+
+
 .amend-6{
     border: 2px solid purple;
     height: 200px;
@@ -815,6 +777,10 @@ p {
 .div-space {
     margin-bottom: 10px;
 }
+.hero3{
+    background-image: url(../images/bennett-tobias-zCLPvnopq88-unsplash.jpg);
+    background-size: cover;
+
 
 /*index page*/ 
 .Each-year{
@@ -831,6 +797,7 @@ p {
     background-color:#E2C6FF;
     padding: 10px;
     height: fit-content;
+
 }
 
 .scratch-game {
