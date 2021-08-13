@@ -14,10 +14,18 @@ html, body {
 
 .uppercase {
     text-transform: uppercase;
+    color: purple;
+    background-color: #E2C6FF;
+    width: 200px;
+    border-radius: 100%;
 }
 
 .logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 120px;
+    background-color: #E2C6FF;
+    border-radius: 5%;
 }
 
 body {
@@ -37,6 +45,27 @@ img {
 /*Login and Sign up buttons */
 ul.top-nav {
     list-style-type: none;
+}
+
+li.nav-1 {
+    float: right;
+    font-size: 15px;
+}
+
+li.nav-1 a {
+    display: block;
+    color: #9BA9FF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.5s;
+    background-color: purple;
+}
+
+li.nav-1 a:hover {
+    color: #E2C6FF;
 }
 
 /*Search bar*/
@@ -235,6 +264,7 @@ td, tr {
     border: 2px solid purple;
     text-align: center;
     padding: 8px;
+    font-size: 20px;
 }
 
 th {
@@ -294,6 +324,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 30px;
+    margin-left: 10px;
 }
 .storiestext > div{
     position: relative;
@@ -305,23 +336,27 @@ footer {
     height: 300px;
     background-color: #E2C6FF;
     padding: 30px;
+    margin-right: 10px;
 }
 .storiestext-carol-ann{
      border:2px solid purple;
      height: 400px;
      background-color:#E2C6FF;
      padding: 30px;
+     margin-right: 10px;
 }
 .storiestext-Rule{
     border: 2px solid purple;
     background-color: #E2C6FF;
     padding: 30px;
+    margin-right: 10px;
 }
 .storiestext-Terra{
     border: 2px solid purple;
     height: 400px;
     background-color: #E2C6FF;
     padding: 30px;
+    margin-right: 10px;
 }  
 
 .storiestext2{
@@ -413,6 +448,15 @@ footer {
     display: block;
     text-align: left;
 }
+
+.dropdown-content p {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
   
 .dropdown-content a:hover {
     background-color: #9BA9FF; 
@@ -420,6 +464,10 @@ footer {
   
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.stories-pointer a:hover {
+    cursor: context-menu;
 }
 
 /*Login page*/
@@ -659,7 +707,6 @@ p {
     margin-right: 450px;
     margin-left: 450px;
     background-color:#E2C6FF;
-
 }
 .amend-3{
     border: 2px solid purple;
@@ -692,10 +739,8 @@ p {
     padding-left: 60px;
     margin-right: 450px;
     margin-left: 450px;
-    background-color:#E2C6FF
-
+    background-color:#E2C6FF;
 }
-
 
 .amend-5{
     border: 2px solid purple;
@@ -704,7 +749,6 @@ p {
     margin-left: 250px;
     background-color: #E2C6FF;
     padding: 30px;
-
 }
 
 .amendment29-heading-5{
@@ -713,8 +757,7 @@ p {
     padding-left: 60px;
     margin-right: 450px;
     margin-left: 450px;
-    background-color:#E2C6FF
-
+    background-color:#E2C6FF;
 }
 .amend-6{
     border: 2px solid purple;
@@ -729,7 +772,6 @@ p {
     background-size: contain;
 }
 
-
 .howtohelpheading{
     border: 2px solid purple;
     height: 70px;
@@ -740,32 +782,28 @@ p {
 
 }
 .stories-heading2{
-
     border: 2px solid purple;
-    height: 110px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 30%;
     background-color:#E2C6FF
 }
 .community{
-    
     border: 2px solid purple;
-    height: 110px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 30%;
     background-color:#E2C6FF
 }
-.legislators{
-       
+.legislators{ 
     border: 2px solid purple;
-    height: 110px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 30%;
     background-color:#E2C6FF
-
 }
 .hero2{
     background-image: url(../images/Homeless-Sitting.jpg);
@@ -784,6 +822,10 @@ p {
 .spacing{
     margin: 50px 0 ;
     text-align: center;
+}
+
+.div-space {
+    margin-bottom: 10px;
 }
 
 
