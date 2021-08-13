@@ -303,12 +303,6 @@ footer {
     opacity: 70%;
 
 }
-.question-1{
-    border: 1px solid black;
-}
-.question-2{
-    border: 1px solid black;
-}
 
 .social-container i:hover {
     opacity: 50%;
@@ -660,10 +654,6 @@ p {
     background-color:#E2C6FF;
 }
 
-.Each-year{
-    margin-bottom: 5%; 
-}
-
 .amendment-29{
     border: 2px solid purple;
     height: 70px;
@@ -775,7 +765,7 @@ p {
     padding-left: 60px;
     margin-right: 450px;
     margin-left: 450px;
-    background-color:#E2C6FF
+    background-color:#E2C6FF;
 
 }
 .stories-heading2{
@@ -784,7 +774,7 @@ p {
     margin-bottom: 20px;
     padding: 10px;
     width: 30%;
-    background-color:#E2C6FF
+    background-color:#E2C6FF;
 }
 .community{
     border: 2px solid purple;
@@ -792,7 +782,7 @@ p {
     margin-bottom: 20px;
     padding: 10px;
     width: 30%;
-    background-color:#E2C6FF
+    background-color:#E2C6FF;
 }
 .legislators{ 
     border: 2px solid purple;
@@ -800,7 +790,7 @@ p {
     margin-bottom: 20px;
     padding: 10px;
     width: 30%;
-    background-color:#E2C6FF
+    background-color:#E2C6FF;
 }
 .hero2{
     background-image: url(../images/Homeless-Sitting.jpg);
@@ -811,4 +801,49 @@ p {
     margin-bottom: 10px;
 }
 
+/*index page*/ 
+.Each-year{
+    margin: 5%; 
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
+}
 
+.game-description {
+    margin: 5%; 
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
+}
+
+.scratch-game {
+    margin: 10%;
+}
+
+.answer-1 {
+    margin: 5%; 
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
+}
+.answer-2{
+    margin: 5%; 
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
+}
+
+.causes{ 
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
+    font-size: 25px;
+    text-align: center;
+}
