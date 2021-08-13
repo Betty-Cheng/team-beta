@@ -706,7 +706,6 @@ p {
     margin-right: 450px;
     margin-left: 450px;
     background-color:#E2C6FF;
-
 }
 .amend-3{
     border: 2px solid purple;
@@ -739,10 +738,8 @@ p {
     padding-left: 60px;
     margin-right: 450px;
     margin-left: 450px;
-    background-color:#E2C6FF
-
+    background-color:#E2C6FF;
 }
-
 
 .amend-5{
     border: 2px solid purple;
@@ -751,7 +748,6 @@ p {
     margin-left: 250px;
     background-color: #E2C6FF;
     padding: 30px;
-
 }
 
 .amendment29-heading-5{
@@ -760,8 +756,7 @@ p {
     padding-left: 60px;
     margin-right: 450px;
     margin-left: 450px;
-    background-color:#E2C6FF
-
+    background-color:#E2C6FF;
 }
 .amend-6{
     border: 2px solid purple;
@@ -776,7 +771,6 @@ p {
     background-size: contain;
 }
 
-
 .howtohelpheading{
     border: 2px solid purple;
     height: 70px;
@@ -787,36 +781,36 @@ p {
 
 }
 .stories-heading2{
-
     border: 2px solid purple;
-    height: 110px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 30%;
     background-color:#E2C6FF
 }
 .community{
-    
     border: 2px solid purple;
-    height: 110px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 30%;
     background-color:#E2C6FF
 }
-.legislators{
-       
+.legislators{ 
     border: 2px solid purple;
-    height: 110px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 30%;
     background-color:#E2C6FF
-
 }
 .hero2{
     background-image: url(../images/Homeless-Sitting.jpg);
     background-size: contain;
+}
+
+.div-space {
+    margin-bottom: 10px;
 }
 
 
