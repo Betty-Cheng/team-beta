@@ -303,12 +303,6 @@ footer {
     opacity: 70%;
 
 }
-.question-1{
-    border: 1px solid black;
-}
-.question-2{
-    border: 1px solid black;
-}
 
 .social-container i:hover {
     opacity: 50%;
@@ -631,11 +625,14 @@ p {
 
 .parfor1{
     border: 2px solid purple;
+
     height: 100px;
     padding-left: 60px;
     margin-right: 150px;
     margin-left: 225px;
+
     background-color:#E2C6FF;
+    margin-bottom: 50px;
 }
 
 .amend1{
@@ -647,9 +644,11 @@ p {
     background-color:#E2C6FF;
 }
 
+
 .Each-year{
     margin-bottom: 5%; 
 }
+
 
 
 .amend-1{
@@ -729,7 +728,7 @@ p {
     padding-left: 60px;
     margin-right: 450px;
     margin-left: 450px;
-    background-color:#E2C6FF
+    background-color:#E2C6FF;
 
 }
 .stories-heading2{
@@ -738,7 +737,7 @@ p {
     margin-bottom: 20px;
     padding: 10px;
     width: 30%;
-    background-color:#E2C6FF
+    background-color:#E2C6FF;
 }
 .community{
     border: 2px solid purple;
@@ -746,7 +745,7 @@ p {
     margin-bottom: 20px;
     padding: 10px;
     width: 30%;
-    background-color:#E2C6FF
+    background-color:#E2C6FF;
 }
 .legislators{ 
     border: 2px solid purple;
@@ -754,7 +753,7 @@ p {
     margin-bottom: 20px;
     padding: 10px;
     width: 30%;
-    background-color:#E2C6FF
+    background-color:#E2C6FF;
 }
 .hero2{
     background-image: url(../images/Homeless-Sitting.jpg);
@@ -782,5 +781,51 @@ p {
     background-image: url(../images/bennett-tobias-zCLPvnopq88-unsplash.jpg);
     background-size: cover;
 
+
+/*index page*/ 
+.Each-year{
+    margin: 5%; 
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
 }
 
+.game-description {
+    margin: 5%; 
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
+
+}
+
+.scratch-game {
+    margin: 10%;
+}
+
+.answer-1 {
+    margin: 5%; 
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
+}
+.answer-2{
+    margin: 5%; 
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
+}
+
+.causes{ 
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
+    font-size: 25px;
+    text-align: center;
+}
