@@ -829,3 +829,13 @@ p {
     font-size: 25px;
     text-align: center;
 }
+
+.sources {
+    margin: 5%; 
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 20px;
+    height: fit-content;
+    text-align: center;
+    font-size: 20px;
+}
