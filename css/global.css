@@ -646,7 +646,11 @@ p {
 
 
 .Each-year{
-    margin-bottom: 5%; 
+
+    margin-bottom: 5%;
+    border: 2px solid purple;
+    background-color: #E2C6FF;
+
 }
 
 
@@ -782,7 +786,6 @@ p {
     background-size: cover;
 }
 
-
 /*index page*/ 
  .Each-year{
     margin: 5%; 
@@ -891,8 +894,14 @@ p {
 
 
 
+
    
   
 
 
 
+.game-description{
+    margin-bottom: 5%;
+  
+   
+}
