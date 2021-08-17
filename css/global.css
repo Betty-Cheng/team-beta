@@ -644,17 +644,6 @@ p {
     background-color:#E2C6FF;
 }
 
-
-.Each-year{
-
-    margin-bottom: 5%;
-    border: 2px solid purple;
-    background-color: #E2C6FF;
-
-}
-
-
-
 .amend-1{
     border: 2px solid purple;
     height: 400px;
@@ -697,10 +686,7 @@ p {
     margin-left: 250px;
     background-color: #E2C6FF;
     padding: 30px;
-
 }
-
-
 
 .amend-5{
     border: 2px solid purple;
@@ -710,8 +696,6 @@ p {
     background-color: #E2C6FF;
     padding: 30px;
 }
-
-
 
 .amend-6{
     border: 2px solid purple;
@@ -733,7 +717,6 @@ p {
     margin-right: 450px;
     margin-left: 450px;
     background-color:#E2C6FF;
-
 }
 .stories-heading2{
     border: 2px solid purple;
@@ -770,9 +753,8 @@ p {
     margin-right: 450px;
     margin-left: 450px;
     background-color:#E2C6FF
-
-
 }
+
 .spacing{
     margin: 50px 0 ;
     text-align: center;
@@ -787,59 +769,63 @@ p {
 }
 
 /*index page*/ 
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
  .Each-year{
     margin: 5%; 
-    border: 2px solid purple;
-    background-color:#E2C6FF;
-    padding: 10px;
-   height: fit-content;
-}
-
-.game-description {
-    margin: 5%; 
+    margin-top: 10%; 
     border: 2px solid purple;
     background-color:#E2C6FF;
     padding: 10px;
     height: fit-content;
-
 }
 
 .scratch-game {
     margin: 10%;
 }
 
-.answer-1 {
+.leaving-home {
     margin: 5%; 
     border: 2px solid purple;
     background-color:#E2C6FF;
     padding: 10px;
     height: fit-content;
+    font-size: 20px;
 }
-.answer-2{
+.causes{
     margin: 5%; 
     border: 2px solid purple;
     background-color:#E2C6FF;
     padding: 10px;
     height: fit-content;
+    font-size: 20px;
 }
 
-.causes{ 
+.effects{ 
     margin-left: 5%;
     margin-right: 5%;
     border: 2px solid purple;
     background-color:#E2C6FF;
     padding: 10px;
     height: fit-content;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
-.nomad{
-    border: 2px solid purple ;
-    height: 300px;
-    background-color: #E2C6FF;
-    padding: 30px;
-    margin-right: 10px;
+
+/*Sources Page*/
+.sources {
+    margin: 5%; 
+    border: 2px solid purple;
+    background-color:#E2C6FF;
+    padding: 20px;
+    height: fit-content;
+    text-align: center;
+    font-size: 20px;
 }
+
 .help1{
     border: 2px solid purple;
     height: 200px;
@@ -883,25 +869,8 @@ p {
     background-color:#E2C6FF;
     margin-bottom: 50px;
 }
-   
- 
- 
-
-
-   
-    
 
 
 
 
 
-   
-  
-
-
-
-.game-description{
-    margin-bottom: 5%;
-  
-   
-}
