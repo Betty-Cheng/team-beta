@@ -871,17 +871,16 @@ p {
     padding: 10px;
     height: fit-content;
 }
-.nomad1{
-    margin-left: 5%;
-    margin-right: 5%;
+.nomad{
     border: 2px solid purple;
+    height: 350px;
+    padding-left: 60px;
+    margin-right: 150px;
+    margin-left: 225px;
     background-color:#E2C6FF;
-    padding: 10px;
-    height: fit-content;
-    font-size: 25px;
-    text-align: center;
-
+    margin-bottom: 50px;
 }
+   
  
  
 
