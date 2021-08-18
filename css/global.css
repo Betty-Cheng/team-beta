@@ -62,6 +62,8 @@ li.nav-1 a {
     font-weight: bold;
     transition: all 0.5s;
     background-color: purple;
+    border-radius:15px;
+    margin: 10px;
 }
 
 li.nav-1 a:hover {
@@ -168,6 +170,8 @@ main{
     width: 80%;
     max-width: 900px;
     background-color:#C4C4C4;
+    box-shadow: 10px 5px 5px grey;
+    border-radius: 15px;
 }
 
 .post-feed {
@@ -177,6 +181,7 @@ main{
     max-width: 900px;
     background-color:#C4C4C4;
     border-radius: 8px;
+    box-shadow: 10px 5px 5px grey;
 }
 
 .post-feed-reply {
@@ -188,6 +193,7 @@ main{
     border-radius: 8px;  
     float: right;
     margin-right: 220px;  
+    box-shadow: 10px 5px 5px grey;
 }
 
 .text-entry {
@@ -331,6 +337,8 @@ footer {
     background-color: #E2C6FF;
     padding: 30px;
     margin-right: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 .storiestext-carol-ann{
      border:2px solid purple;
@@ -338,12 +346,16 @@ footer {
      background-color:#E2C6FF;
      padding: 30px;
      margin-right: 10px;
+     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+     border-radius: 15px;
 }
 .storiestext-Rule{
     border: 2px solid purple;
     background-color: #E2C6FF;
     padding: 30px;
     margin-right: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 .storiestext-Terra{
     border: 2px solid purple;
@@ -351,10 +363,11 @@ footer {
     background-color: #E2C6FF;
     padding: 30px;
     margin-right: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }  
 
 .storiestext2{
-
     border: 2px solid purple;
     height: 50px;
     background-color:#E2C6FF;
@@ -499,11 +512,11 @@ form {
     width: 80%;
     max-width: 700px;
     opacity: 90%;
-    border-radius: 5%;
+    border-radius: 15px;
 }
 
 #login-background {
-    background-image: url('../images/kids.jpg');
+    background-image: url('../images/bench.jpg');
     background-size: cover;
 }
 
@@ -543,11 +556,11 @@ form {
     width: 80%;
     max-width: 700px;
     opacity: 90%;
-    border-radius: 5%;
+    border-radius: 15px;
 }
 
 #signup-background {
-    background-image: url("../images/Homeless-Sitting.jpg");
+    background-image: url("../images/kindness.jpg");
     background-size: cover;
 }
 
@@ -563,7 +576,7 @@ form {
     float: left;
     padding: 10px;
     width: 45%; 
-    background-image: url('https://media.giphy.com/media/u1qiNXneU9M6ViYhOu/giphy.gif');
+    background-image: url('https://media.giphy.com/media/57Y7JIqvH9okJCJYjp/giphy.gif');
 }
 
 .Betty-photo {
@@ -581,6 +594,18 @@ form {
     padding-left: 30%;
 }
 
+.Betty {
+    border-radius: 15px;
+}
+
+.Cherry {
+    border-radius: 15px; 
+}
+
+.Elsabeth {
+    border-radius: 15px;
+}
+
 /*About us bio */
 
 .Betty-bio {
@@ -589,6 +614,8 @@ form {
     margin-top: 10%;
     margin-bottom: 5%;
     border: 1px solid purple;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius:15px;
 }
 
 .Cherry-bio {
@@ -597,6 +624,8 @@ form {
     margin-top: 10%;
     margin-bottom: 20%;
     border: 1px solid purple;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius:15px;
 }
 
 .Elsabeth-bio {
@@ -605,6 +634,8 @@ form {
     margin-top: 5%;
     margin-bottom: 5%;
     border: 1px solid purple;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius:15px;
 }
 
 .bio-container {
@@ -625,14 +656,11 @@ p {
 
 .parfor1{
     border: 2px solid purple;
-
-    height: 100px;
-    padding-left: 60px;
-    margin-right: 150px;
-    margin-left: 225px;
-
+    padding: 10px;
+    width: 60%;
     background-color:#E2C6FF;
-    margin-bottom: 50px;
+    height: fit-content;
+    border-radius: 15px;
 }
 
 .amend1{
@@ -650,61 +678,31 @@ p {
     background-color: #E2C6FF;
     padding: 30px;
     margin: 50px 250px 5px 250px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 
 .amendment29-heading-1{
     border: 2px solid purple;
-    height: 70px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 30%;
     background-color:#E2C6FF;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 .amend-2{
     border: 2px solid purple;
-    height: 150px;
-    margin-right:250px;
-    margin-left: 250px;
-    background-color: #E2C6FF;
-    padding: 30px;
+    padding: 10px;
+    margin: 50px 250px 5px 250px;
+    width: 60%;
+    background-color:#E2C6FF;
+    height: fit-content;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 
-.amend-3{
-    border: 2px solid purple;
-    height: 400px;
-    margin-right:250px;
-    margin-left: 250px;
-    background-color: #E2C6FF;
-    padding: 30px;
-}
-
-
-.amend-4{
-    border: 2px solid purple;
-    height: 400px;
-    margin-right:250px;
-    margin-left: 250px;
-    background-color: #E2C6FF;
-    padding: 30px;
-}
-
-.amend-5{
-    border: 2px solid purple;
-    height: 450px;
-    margin-right:250px;
-    margin-left: 250px;
-    background-color: #E2C6FF;
-    padding: 30px;
-}
-
-.amend-6{
-    border: 2px solid purple;
-    height: 200px;
-    margin-right:250px;
-    margin-left: 250px;
-    background-color: #E2C6FF;
-    padding: 30px;
-}
 .hero1{
     background-image: url(../images/homeless\ youth\ images\ 1.jpg);
     background-size: contain;
@@ -725,6 +723,8 @@ p {
     padding: 10px;
     width: 30%;
     background-color:#E2C6FF;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 .community{
     border: 2px solid purple;
@@ -733,6 +733,8 @@ p {
     padding: 10px;
     width: 30%;
     background-color:#E2C6FF;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 .legislators{ 
     border: 2px solid purple;
@@ -741,6 +743,8 @@ p {
     padding: 10px;
     width: 30%;
     background-color:#E2C6FF;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 .hero2{
     background-image: url(../images/Homeless-Sitting.jpg);
@@ -748,11 +752,13 @@ p {
 }
 .solution{
     border: 2px solid purple;
-    height: 70px;
-    padding-left: 60px;
-    margin-right: 450px;
-    margin-left: 450px;
-    background-color:#E2C6FF
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 30%;
+    background-color:#E2C6FF;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 
 .spacing{
@@ -778,9 +784,11 @@ p {
     margin: 5%; 
     margin-top: 10%; 
     border: 2px solid purple;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     background-color:#E2C6FF;
     padding: 10px;
     height: fit-content;
+    border-radius:15px;
 }
 
 .scratch-game {
@@ -790,30 +798,46 @@ p {
 .leaving-home {
     margin: 5%; 
     border: 2px solid purple;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     background-color:#E2C6FF;
     padding: 10px;
     height: fit-content;
     font-size: 20px;
+    border-radius:15px;
 }
+
 .causes{
     margin: 5%; 
     border: 2px solid purple;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     background-color:#E2C6FF;
     padding: 10px;
     height: fit-content;
     font-size: 20px;
+    border-radius:15px;
 }
 
 .effects{ 
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 5%; 
     border: 2px solid purple;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     background-color:#E2C6FF;
     padding: 10px;
     height: fit-content;
     font-size: 20px;
-    text-align: center;
+    border-radius:15px;
 }
+
+.dangers {
+    margin: 5%; 
+    border: 2px solid purple;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    background-color:#E2C6FF;
+    padding: 10px;
+    height: fit-content;
+    font-size: 20px;
+    border-radius:15px;
+} 
 
 /*Sources Page*/
 .sources {
@@ -824,16 +848,20 @@ p {
     height: fit-content;
     text-align: center;
     font-size: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius:15px;
 }
 
 .help1{
     border: 2px solid purple;
-    height: 200px;
-    padding-left: 60px;
-    margin-right: 150px;
-    margin-left: 225px;
+    padding: 10px;
+    width: 60%;
     background-color:#E2C6FF;
-    margin-bottom: 50px;
+    height: fit-content;
+    margin-right: 250px;
+    margin-left: 250px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 15px;
 }
 .help2{
     border: 2px solid purple;
@@ -862,15 +890,26 @@ p {
 }
 .nomad{
     border: 2px solid purple;
-    height: 350px;
-    padding-left: 60px;
-    margin-right: 150px;
-    margin-left: 225px;
+    padding: 10px;
+    width: 70%;
     background-color:#E2C6FF;
-    margin-bottom: 50px;
+    height: fit-content;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius:15px;
 }
 
+.baby-pic {
+    margin-top: 10%;
+    width:75%;
+    border-radius:15px;
+}
 
+.girl-sitting-pic {
+    margin-top: 20%;
+    margin-left: 5%;
+    width: 80%;   
+    border-radius:15px;
+}
 
 
 
